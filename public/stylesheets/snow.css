@@ -1,0 +1,60 @@
+html, body, h1, h2, h3, h4, h5, p, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: #8bb2de;
+	font-family: "Redressed" cursive;
+}
+
+h1 {
+	color: #ed0000;
+	font-size: 64px;
+	font-weight: bold;
+	text-shadow: 0 .05em .1em #fff;
+	font-family: "Lobster Two" cursive;
+}
+
+p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+section {
+	margin: 30px 50px;
+}
+
+img {
+	width: 25%;
+	border-radius: 3px;
+}
+
+.text1, .text2 {
+	padding: 0 10px;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* this may be the hackiest thing I've ever done */
+iframe {
+	display: none;
+}
+
+#canvas {
+	display: block;
+}
+
+.content {
+	top: 0;
+	position: absolute;
+
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}

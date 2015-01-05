@@ -1,0 +1,9 @@
+.DS_Store
+._*
+
+other.js
+views/misc/*
+public/images/*
+public/javascripts/sophia.js
+public/javascripts/tips.js
+public/javascripts/daysRemaining.js

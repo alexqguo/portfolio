@@ -1,0 +1,116 @@
+html, body, h1, h2, h3, h4, h5, p, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 	Roboto, 
+	              Helvetica, 
+	              Arial, 
+	              sans-serif; 
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+a {
+	color: blueviolet;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#main {
+	padding: 40px 70px 0;
+	color: #555;
+}
+
+#nav {
+	padding: 40px 70px;
+	background-color: blueviolet;
+	color: white;
+	font-weight: 400;
+}
+
+#nav a {
+	color: white;
+}
+
+#slider {
+	position: absolute;
+	background-color: blueviolet;
+	width: 100%;
+	height: 100%;
+}
+
+h1.my-name {
+	font-size: 48px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.navlist {
+	display: inline-block;
+	margin-bottom: -7px;
+}
+
+.navlist-item {
+	float: left;
+	margin-top: 10px;
+	margin-right: 12px;
+}
+
+.navlist-item a {
+	padding: 5px 10px;
+	opacity: 0.7;
+	border-radius: 2px;
+
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.navlist-item a:hover {
+	/*cursor: pointer;*/
+	opacity: 1;
+
+/*	-webkit-box-shadow: 0px 0px 5px white;
+	-moz-box-shadow: 0px 0px 5px white;
+	box-shadow: 0px 0px 5px white;*/
+}
+
+.std-list-item {
+	margin-bottom: 20px;
+}
+
+.subtext {
+	display: block;
+	font-size: 14px;
+	margin: 10px;
+}
+
+.subsubtext {
+	display: block;
+	font-size: 13px;
+	margin: 10px;
+}
+
+.font-normal {
+	font-weight: 400;
+}
+
+.group:after {
+	clear: both;
+	content: "";
+	display: block;
+}
