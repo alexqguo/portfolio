@@ -1,20 +1,26 @@
-$(function() {
+(function() {
+	var slider = document.getElementById("slider");
+	var navLinks = document.getElementsByClassName("navlink");
 
-	setTimeout(function() { // not sure why but this is needed or else there's no animation
-		$("#slider").animate({height: "0%"});
-	}, 30);
+	function navLinkClick(e) {
+		e.preventDefault();
+		console.log(e.currentTarget.getAttribute("data-tab"));
+	}
 
-	$("#nav a").click(function(e) {
-		var url = $(this).attr("href");
+	function hideSlider() {
+		slider.className += " hidden";
+	}
 
-		$("#slider").animate({
-			height: "100%"
-		}, function() {
-			document.location.href = url;
-		});
+	function showSlider() {
+		slider.className = slider.className.replace(/\b hidden\b/g, "");
+	}
 
-		return false;
-	});
+	for (var i = 0; i < navLinks.length; i++) {
+		navLinks[i].addEventListener("click", navLinkClick);
+	};
 
-	$("#main").smoothState();
-});
+	setTimeout(function() {
+		slider.className += " hidden";
+	}, 300);
+
+}());

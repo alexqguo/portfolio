@@ -31,15 +31,25 @@ ul {
 }
 
 #main {
+	margin-top: 137px;
 	padding: 40px 70px 0;
 	color: #555;
 }
 
 #nav {
-	padding: 40px 70px;
+	padding: 40px 0;
 	background-color: navy;
 	color: white;
 	font-weight: 400;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	max-height: 57px;
+	z-index: 1;
+}
+
+.navwrap {
+	padding: 0 70px;
 }
 
 #nav a {
@@ -51,6 +61,13 @@ ul {
 	background-color: navy;
 	width: 100%;
 	height: 100%;
+
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+#slider.hidden {
+	margin-top: -50%;
 }
 
 h1.my-name {
@@ -80,12 +97,7 @@ h1.my-name {
 }
 
 .navlist-item a:hover {
-	/*cursor: pointer;*/
 	opacity: 1;
-
-/*	-webkit-box-shadow: 0px 0px 5px white;
-	-moz-box-shadow: 0px 0px 5px white;
-	box-shadow: 0px 0px 5px white;*/
 }
 
 .std-list-item {

@@ -1,0 +1,33 @@
+<section id="projects" class="">
+	<ul class="std-list">
+		<li class="std-list-item">
+			Oberlin College Track & Field Website
+			(<a href="http://github.com/alexqguo/octf">source</a> | 
+			<a href="http://octf.alexguo.us">live</a>)
+			<span class="subtext">
+				This is a small side project that I tinker with every now and then. It is a simple data scraping and visualization app with a Rails/PostgreSQL backend using Highcharts for the graphing. All data is scraped from TFRRS.org (Track and Field Results and Reporting System) and performed with Nokogiri. Once the data is parsed and stored to the DB, I have a backend API that formats everything into a nice JSON object that Highcharts can read easily. In the admin section of the site, I use unobtrusive Javascript to add, edit, and delete marks for athletes. Recently, I've implemented the gem youtube_it to interact with Youtube's API and started making the site responsive.
+			</span>
+		</li>
+		<li class="std-list-item">
+			TV App
+			(<a href="http://github.com/alexqguo/tv_app">source</a>)
+			<span class="subtext">
+				(in progress)
+			</span>
+		</li>
+		<li class="std-list-item">
+			Meetup Lite
+			(<a href="http://github.com/alexqguo/meetup">source</a>)
+			<span class="subtext">
+				This is a basic clone of Meetup.com. Rails/PostgreSQL backend with RESTful routes, polymorphic model, custom SQL query that searches meetup groups by name and all associated tags using regex. Javascript/Backbone.js frontend which uses Backbone on the home page and each meetup group's page. On the home page, a jQuery UI Datepicker integrates with Backbone to fetch appropriate data, and the search bar uses Backbone to search for groups by location, distance from that location and a query. Meetup group show page runs completely on Backbone and also uses unobtrusive Javascript for posting of comments and reviews, while clicking on a tag link links you back to the home page (separate router) and triggers a Backbone search for that tag. <span class="font-normal">NOTE: </span>I only worked on this for about two weeks and don't update it anymore, and the seed data is very old.
+			</span>
+		</li>
+		<li class="std-list-item">
+			Visual Trie
+			(<a href="http://github.com/alexqguo/visual-trie">source</a>)
+			<span class="subtext">
+				This is a much simpler project that I built one day because I had some free time. I implemented a basic Trie data structure in Ruby and then essentially threw it into a Rails app so that a user can poke around with it and add/remove words. Adding, removing, etc. is of course all done recursively and the data structure itself is stored in the cookie and I got rid of page redirects all together.
+			</span>
+		</li>
+	</ul>
+</section>
