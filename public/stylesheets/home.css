@@ -62,12 +62,12 @@ ul {
 	width: 100%;
 	height: 100%;
 
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+	-webkit-transition: 0.8s;
+	transition: 0.8s;
 }
 
 #slider.hidden {
-	margin-top: -50%;
+	margin-top: -100%;
 }
 
 h1.my-name {
@@ -124,4 +124,8 @@ h1.my-name {
 	clear: both;
 	content: "";
 	display: block;
+}
+
+.hide {
+	display: none;
 }
