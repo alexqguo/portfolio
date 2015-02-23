@@ -20,7 +20,6 @@
 			};
 
 			newTab.className = "";
-
 			hideSlider();
 		}, 500);
 
@@ -38,8 +37,6 @@
 		navLinks[i].addEventListener("click", navLinkClick);
 	};
 
-	setTimeout(function() {
-		slider.className += " hidden";
-	}, 300);
+	setTimeout(hideSlider, 300);
 
 }());
