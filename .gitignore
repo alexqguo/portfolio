@@ -4,7 +4,8 @@
 other.js
 views/misc/*
 public/images/*
-public/javascripts/sophia.js
+public/stylesheets/sb.css
+public/javascripts/sb.js
 public/javascripts/tips.js
 public/javascripts/daysRemaining.js
 public/apartment.pdf
