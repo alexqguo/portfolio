@@ -4,6 +4,7 @@ rsync -av --exclude=\".*\" ./ ../github-portfolio;
 cd ~/Programming/github-portfolio;
 git add -A;
 git commit -m 'commit #{time}';
+echo #{time}
 cd ~/Programming/portfolio
 "
 
