@@ -1,10 +1,9 @@
 time = Time.now
 command = "
-rsync -av --exclude=\".*\" ./ ../github-portfolio;
+rsync -av --delete --exclude=\".*\" . ../github-portfolio;
 cd ~/Programming/github-portfolio;
 git add -A;
 git commit -m 'commit #{time}';
-echo #{time}
 cd ~/Programming/portfolio
 "
 
