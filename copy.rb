@@ -10,3 +10,4 @@ cd ~/Programming/portfolio
 exec command
 
 # if this doesn't work try removing --delete
+# make sure you actually push the code

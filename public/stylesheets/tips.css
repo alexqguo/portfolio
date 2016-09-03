@@ -1,51 +1,41 @@
 html, body, h1, h2, h3, h4, h5, p, ul, input[type="submit"] {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
-}
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
 
 body {
-	font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 h1 {
-	font-size: 48px;
-	font-weight: bold;
-}
+  font-size: 48px;
+  font-weight: bold; }
 
 #content {
-	width: 400px;
-	border: 1px solid black;
-	margin: 50px auto;
-	padding: 20px;
-
-	text-align: center;
-	font-weight: 200;
-}
+  width: 400px;
+  border: 1px solid black;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  font-weight: 200; }
 
 form {
-	text-align: left;
-}
+  text-align: left; }
 
 input[type="submit"] {
-	font-size: 14px;
-	padding: 10px 20px;
-	background-color: #30fafa;
-}
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #30fafa; }
 
 .input {
-	display: block;
-	margin: 10px;
-}
+  display: block;
+  margin: 10px; }
 
 .group:after {
-	clear: both;
-	content: "";
-	display: block;
-}
+  clear: both;
+  content: "";
+  display: block; }
 
 .results {
-	font-size: 18px;
-}
+  font-size: 18px; }

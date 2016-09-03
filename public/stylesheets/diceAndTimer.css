@@ -1,118 +1,96 @@
 html, body, h1, h2, h3, h4, h5, p, ul {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
-}
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
 
 body {
-	padding: 50px;
-	text-align: center;
-
-	font-family: "Source Sans Pro", sans-serif;
-	font-weight: 400;
-}
+  padding: 50px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
 
 #dice {
-	margin-right: 75px;
-	width: 300px;
-	float: left;
-}
+  margin-right: 75px;
+  width: 300px;
+  float: left; }
 
 .die {
-	height: 300px;
-	border: 2px solid black;
-	border-radius: 3px;
-	position: relative;
-
-	-moz-box-shadow:    0px 0px 10px #aaa;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 3px;
+  position: relative;
+  -moz-box-shadow: 0px 0px 10px #aaa;
   -webkit-box-shadow: 0px 0px 10px #aaa;
-  box-shadow:         0px 0px 10px #aaa;
-}
+  box-shadow: 0px 0px 10px #aaa; }
 
 .dot {
-	width: 64px;
-	height: 64px;
-	background: #000;
-	position: absolute;
-	border-radius: 64px;
-	display: none;
-}
+  width: 64px;
+  height: 64px;
+  background: #000;
+  position: absolute;
+  border-radius: 64px;
+  display: none; }
 
 .dot.top {
-	top: 10%;
-}
+  top: 10%; }
 
 .dot.left {
-	left: 12%;
-}
+  left: 12%; }
 
 .dot.right {
-	right: 12%;
-}
+  right: 12%; }
 
 .dot.bot {
-	bottom: 10%;
-}
+  bottom: 10%; }
 
 .dot.mid {
-	top: 39%;
-}
+  top: 39%; }
 
 .dot.center {
-	right: 39%;
-}
+  right: 39%; }
 
 .button {
-	margin: 15px;
-	padding: 5px;
-	background: rgb(66, 184, 221);
-	color: #fff;
-	border-radius: 3px;
-	border: 1px solid transparent;
-
-	/* disable text highlighting */
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
+  margin: 15px;
+  padding: 5px;
+  background: #42b8dd;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  /* disable text highlighting */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
 
 .button:hover {
-	cursor: pointer;
-}
+  cursor: pointer; }
 
 .button:active {
-	border: 1px solid blue;
-}
+  border: 1px solid blue; }
 
 .roll {
-	margin: 15px auto;
-	font-size: 20px;
-	width: 80px;
-}
+  margin: 15px auto;
+  font-size: 20px;
+  width: 80px; }
 
 #timer {
-	width: 300px;
-	height: 300px;
-	float: left;
-}
+  width: 300px;
+  height: 300px;
+  float: left; }
 
 .time-display {
-	font-size: 60px;
-	height: 100px;
-	text-shadow: 0px 15px 20px #aaa;
-}
+  font-size: 60px;
+  height: 100px;
+  text-shadow: 0px 15px 20px #aaa; }
 
 .time-button {
-	display: inline-block;
-	width: 90px;
-	margin: 5px;
-}
+  display: inline-block;
+  width: 90px;
+  margin: 5px; }
 
 .timeup {
-	color: red;
-}
+  color: red; }

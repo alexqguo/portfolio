@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Alex Guo</title>
-		<link rel='stylesheet' href='/stylesheets/home.css'>
-		<link rel='shortcut icon' href='/images/favicon.png'>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <%- include partials/head.ejs %>
 	</head>
 	<body>
 		<div id="nav" class="">
@@ -14,16 +11,16 @@
 				</h1>
 
 				<div class="iconlist">
-					<a target="_blank" href="http://linkedin.com/in/alexqguo">
+					<a target="_blank" rel="noopener noreferrer" href="http://linkedin.com/in/alexqguo">
 						<img src="/images/linkedin.png">
 					</a>
-					<a target="_blank" href="http://twitter.com/alexqguo">
+					<a target="_blank" rel="noopener noreferrer" href="http://twitter.com/alexqguo">
 						<img src="/images/twitter.png">
 					</a>
-					<a target="_blank" href="http://instagram.com/alexqguo">
+					<a target="_blank" rel="noopener noreferrer" href="http://instagram.com/alexqguo">
 						<img src="/images/instagram.png">
 					</a>
-					<a target="_blank" href="http://github.com/alexqguo">
+					<a target="_blank" rel="noopener noreferrer" href="http://github.com/alexqguo">
 						<img src="/images/github.png">
 					</a>
 				</div>
@@ -36,20 +33,22 @@
 						<a href="" class="navlink" data-tab="info">Basic Info</a>
 					</li>
 					<li class="navlist-item">
-						<a href="" class="navlink" data-tab="projects">Projects</a>
+						<a href="" class="navlink" data-tab="other">Updates</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-			
+
 		<div id="slider"></div>
 
 		<div id="main" class="">
 			<%- include partials/about.ejs %>
 			<%- include partials/info.ejs %>
-			<%- include partials/projects.ejs %>
+			<%- include partials/other.ejs %>
 		</div>
 
-		<script src='/javascripts/home.js'></script>
+		<script src="/javascripts/home.js"></script>
+        <script src="/javascripts/chart.bundle.min.js"></script>
+        <script src="/javascripts/tjChart.js"></script>
 	</body>
 </html>
