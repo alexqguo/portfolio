@@ -8,4 +8,8 @@ public/stylesheets/sb.css
 public/javascripts/sb.js
 public/javascripts/tips.js
 public/javascripts/daysRemaining.js
+dev/javascripts/sb.js
+dev/javascripts/tips.js
+dev/javascripts/daysRemaining.js
+dev/stylesheets/sb.scss
 public/apartment.pdf
