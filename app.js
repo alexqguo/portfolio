@@ -26,6 +26,8 @@ app.engine('ejs', engine);
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
+
+  // todo: run gulp?
 }
 
 require('./routes');
